@@ -1,0 +1,69 @@
+p {
+    font-family: Lato;
+  }
+  
+  .container, .emp-pagination{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+  
+  .example-card {
+    max-width: 400px;
+    margin-bottom: 15px;
+    margin-right: 0;
+    display: flex;
+    float: left;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .cards {
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 0 auto;
+  }
+  
+  .profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .example-card .mat-card-subtitle{
+    margin-bottom: 5px;
+  }
+  
+  .chip{
+    background: #c2e3f0;
+    border-radius: 10px;
+    color: #3030bf;
+    padding: 2px 8px;
+    margin-right: 3px;
+  }
+  
+  .emp-vip{
+    background: #f2dac3;
+    color: #ff9d22;
+  }
+
+  .emp-pagination{
+    position: sticky;
+    left: 0;
+    max-width: 900px;
+    // bottom: 100px;
+  }
+
+  .emp-navbar{
+    position: sticky;
+    max-width: 900px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }

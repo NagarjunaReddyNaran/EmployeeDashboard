@@ -1,0 +1,92 @@
+[
+        {
+            "firstName": "John",
+            "lastName": "Snow",
+            "deptId": 1,
+            "position": "Head of Night Watch",
+            "hire_date": "2019-05-10",
+            "married": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Jon_Snow_Season_8.png",
+            "status": false
+        },
+        {
+            "firstName": "Name",
+            "lastName": "",
+            "deptId": 2,
+            "position": "Position",
+            "hire_date": "2020-05-10",
+            "married": true,
+            "imageUrl": "https://dummyimage.com/300/09f/fff.png",
+            "status": false
+        },
+        {
+            "firstName": "Name",
+            "lastName": "",
+            "deptId": 2,
+            "position": "Position",
+            "hire_date": "2020-06-10",
+            "married": true,
+            "imageUrl": "https://dummyimage.com/300/09f/fff.png",
+            "status": false
+        },
+        {
+            "firstName": "Name",
+            "lastName": "",
+            "deptId": 2,
+            "position": "Position",
+            "hire_date": "2020-05-08",
+            "married": true,
+            "imageUrl": "https://dummyimage.com/300/09f/fff.png",
+            "status": false
+        },
+        {
+            "firstName": "Emilia",
+            "lastName": "Clarke",
+            "deptId": 1,
+            "position": "President and CEO",
+            "hire_date": "2019-05-10",
+            "married": true,
+            "imageUrl": "https://www.pngall.com/wp-content/uploads/12/Game-Of-Thrones-PNG-Image.png",
+            "status": true
+        },
+        {
+            "firstName": "Patyr",
+            "lastName": "Baelish",
+            "deptId": 3,
+            "position": "Accountant",
+            "hire_date": "2018-05-10",
+            "married": false,
+            "imageUrl": "https://i.pinimg.com/originals/f3/5e/f7/f35ef7445c562e5ead69de508e9e2052.png",
+            "status": true
+        },
+        {
+            "firstName": "Name",
+            "lastName": "",
+            "deptId": 1,
+            "position": "Head of Engineering",
+            "hire_date": "2017-05-21",
+            "married": true,
+            "imageUrl": "https://png.pngitem.com/pimgs/s/49-497522_transparent-guy-thinking-png-random-guy-cartoon-png.png",
+            "status": false
+        },
+        {
+            "firstName": "Ram",
+            "lastName": "Charan",
+            "deptId": 1,
+            "position": "President and CEO",
+            "hire_date": "2015-05-10",
+            "married": true,
+            "imageUrl": "https://png.pngitem.com/pimgs/s/49-497525_annoyed-peter-peter-family-guy-transparent-hd-png.png",
+            "status": true
+        },
+        {
+            "firstName": "Mahesh",
+            "lastName": "Babu",
+            "deptId": 2,
+            "position": "Accountant",
+            "hire_date": "2012-05-10",
+            "married": false,
+            "imageUrl": "https://png.pngitem.com/pimgs/s/49-497724_simple-guy-skills-simple-guy-hd-png-download.png",
+            "status": true
+        }
+    ]

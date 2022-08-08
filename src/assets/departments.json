@@ -1,0 +1,17 @@
+ [
+        {
+            "deptId": 1,
+            "deptName": "Executives",
+            "deptLocation": "London"
+        },
+        {
+            "deptId": 2,
+            "deptName": "Department",
+            "deptLocation": "UK"
+        },
+        {
+            "deptId": 3,
+            "deptName": "Support",
+            "deptLocation": "Canada"
+        }
+    ]
