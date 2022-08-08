@@ -72,6 +72,7 @@ export class AppComponent implements OnInit {
     this.departmentName = dept.deptName;
     this.employees = this.empFilterPipe.transform(this.employeesCopy, dept);
     this.page = 1;
+    this.collectionSize = this.employees.length;
   }
 
 }

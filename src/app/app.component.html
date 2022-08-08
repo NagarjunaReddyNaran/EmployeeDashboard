@@ -9,9 +9,7 @@
         <button ngbDropdownItem *ngFor="let dept of departments" (click)="changeSortOrder(dept)">
           {{dept?.deptName}}
         </button>
-        <!-- <button ngbDropdownItem>{{dept?.deptName}}</button> -->
-        <!-- <button ngbDropdownItem>Another Action</button>
-        <button ngbDropdownItem>Something else is here</button> -->
+        <button ngbDropdownItem (click)="getEmployees()">All</button>
       </div>
     </div>
   </div>
@@ -19,7 +17,6 @@
     <mat-card *ngFor="let data of employees" class="example-card">
       <img class="profile" mat-card-sm-image src="{{data.imageUrl}}" >
       <mat-card-title-group>
-        <!-- <mat-card-title>{{data.firstName}} {{data.lastName}}</mat-card-title> -->
         <mat-card-subtitle><b>{{data.firstName}} {{data.lastName}}</b></mat-card-subtitle>
         <mat-card-subtitle>{{data.position}}</mat-card-subtitle>
         <mat-card-subtitle>
