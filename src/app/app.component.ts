@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this. getDepartments();
     // this.getEmployeesApi();
-    this.getDepartmentsApi();
+    // this.getDepartmentsApi();
   }
 
   getEmployees(){
