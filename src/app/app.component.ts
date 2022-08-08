@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Departments } from 'src/models/department';
 import { Employees } from 'src/models/employee';
-import { AppService } from './app.service';
-import { EmpFilterPipe } from './emp-filter.pipe';
+import { EmpFilterPipe } from 'src/pipes/emp-filter.pipe';
+import { AppService } from 'src/services/app.service';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this. getDepartments();
     // this.getEmployeesApi();
+    this.getDepartmentsApi();
   }
 
   getEmployees(){
@@ -45,6 +46,14 @@ export class AppComponent implements OnInit {
   //     }
   //   );
   // }
+
+  getDepartmentsApi(){
+    this.api.getDepartmentsApi().subscribe(
+      (res) => {
+        console.log('getDepartmentsApi response ====>', res);
+      }
+    );
+  }
 
   getDepartments(){
     this.api.getDepartments().subscribe(

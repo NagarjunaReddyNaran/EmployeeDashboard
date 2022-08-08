@@ -26,7 +26,7 @@ export class AppService {
     return this.http.get<any>(this.API_URL + '/api/v2/employees');
   }
 
-  // public getDepartments(): Observable<Departments[]> {
-  //   return this.http.get<Departments[]>(this.API_URL + '/api/v2/departments');
-  // }
+  public getDepartmentsApi(): Observable<any> {
+    return this.http.get<any>(this.API_URL + '/api/v2/departments');
+  }
 }

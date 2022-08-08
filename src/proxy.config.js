@@ -1,11 +1,11 @@
 module.exports = {
-  '/api/v2/*': {
+  '/api/v2/departments': {
     target: 'https://209.217.95.19:18100',
     secure: false,
     logLevel: 'debug',
     changeOrigin: true,
-    timeout: 6000000
-  },
+    pathRewrite: {"^/api" : "http://209.217.95.19:18100/api/v2/departments"}
+  }
 };
 
 // module.exports = {
